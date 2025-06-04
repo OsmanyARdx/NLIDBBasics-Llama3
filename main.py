@@ -5,7 +5,7 @@ from langchain.schema import HumanMessage
 
 # === Setup your Llama3 LLM endpoint ===
 llm = ChatOpenAI(
-    base_url="http://172.29.160.1:1234/v1",
+    base_url="http://192...../v1", #running AI server endpoint
     api_key="sk-no-key-needed",  # dummy or real if needed
     model="dolphin3.0-llama3.1-8b"
 )
